@@ -1,0 +1,39 @@
+#accounts {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.accounts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 45%;
+}
+
+.account h3 {
+    margin-top: 0;
+}
+
+.account p.balance {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.transfer-button {
+    background-color: #2c3e50;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
